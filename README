@@ -5,6 +5,8 @@
  Class that returns information about the current track playing,
  using the Last.fm API.
  
+ Requires PHP 5.
+ 
 ===============================================================
  Erik Jansson <erik@eriknow.com>
 ---------------------------------------------------------------
