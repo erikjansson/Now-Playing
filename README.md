@@ -24,28 +24,20 @@ For this script to work, you need to apply for a Last.fm API account: http://www
 ----
  
 ## Step-by-step usage:
- 
- 1. Assuming the class file resides in the same directory as your
- script, include it as such:
- 
- require_once 'nowplaying.class.php';
-    
- 2. Then, instantiate the class:
- 
- $nowPlaying = new NowPlaying('Username', 'API key');
+
+1. Assuming the class file resides in the same directory as your
+ script, include it as such: `require_once 'nowplaying.class.php';`
+
+2. Then, instantiate the class: `$nowPlaying = new NowPlaying('Username', 'API key');
  
  - The first parameter is the Last.fm username you want info about.
  - The second parameter is the API key which you will find in your
    API account after signing up: http://www.last.fm/api/account
 
- 3. To display the current track playing, call the getNowPlaying() method:
-    
- echo $playing->getNowPlaying();
-    
- 4. When no music is currently being played, a message will be shown 
-   saying so. This message can be customized with setNoTrackPlayingMessage():
-   
-   $playing->setNoTrackPlayingMessage('emptyness');
+3. To display the current track playing, call the getNowPlaying() method: `echo $playing->getNowPlaying();`
+
+4. When no music is currently being played, a message will be shown 
+   saying so. This message can be customized with `setNoTrackPlayingMessage()`: `$playing->setNoTrackPlayingMessage('emptyness');
    
    Remember to call this method before getNowPlaying(), otherwise your custom
    message won't be used.
