@@ -4,7 +4,7 @@
 * Class that returns the track a user is currently playing via Last.fm
 *
 * @author       Erik Jansson <erik@eriknow.com>
-* @copyright    Erik Jansson 2011
+* @copyright    2011 Erik Jansson
 *
 */
 
