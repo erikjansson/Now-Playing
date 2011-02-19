@@ -6,7 +6,7 @@ Requires PHP 5.
 
 ----
 
-Erik Jansson <erik@eriknow.com>
+Erik Jansson - erik at eriknow dot com
 
 ----
  
@@ -17,7 +17,7 @@ For this script to work, you need to apply for a Last.fm API account: http://www
 ## Bare bones usage:
  
     require_once 'nowplaying.class.php';
-    $nowPlaying = new NowPlaying('YourUsername', 'API-key');
+    $nowPlaying = new NowPlaying('Username', 'API key');
     $playing->setNoTrackPlayingMessage('My custom message!'); // optional
     echo $playing->getNowPlaying();
     
@@ -42,7 +42,7 @@ For this script to work, you need to apply for a Last.fm API account: http://www
    
 ----
  
-If anything is unclear, shoot me an email: erik@eriknow.com
+If anything is unclear, shoot me an email: erik at eriknow dot com
  
 Erik Jansson  
 2011
