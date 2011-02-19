@@ -25,10 +25,10 @@ class NowPlaying{
 
     public function getNowPlaying(){
 
-        //	create an XML object
+        // create an XML object
         $xml = simplexml_load_file($this->url);
 
-        //	get the latest track
+        // get the latest track
         $track = $xml->recenttracks->track;
 
         // check if the track is actually playing 
