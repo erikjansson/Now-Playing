@@ -22,7 +22,8 @@ class NowPlaying{
         // default message
         $this->noTrackPlayingMessage = 'Nothing is playing right now!';
     }
-
+    
+    // return the artist and track currently playing
     public function getNowPlaying(){
 
         // create an XML object
@@ -44,7 +45,8 @@ class NowPlaying{
             return $this->noTrackPlayingMessage;
         }
     }
-
+    
+    // set the message to be shown when no music is playing
     public function setNoTrackPlayingMessage($messageIn){
         $this->noTrackPlayingMessage = $messageIn;
     }
