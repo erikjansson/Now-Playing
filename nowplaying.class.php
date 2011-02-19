@@ -33,7 +33,8 @@ class NowPlaying{
 
         // check if the track is actually playing 
         $nowplaying = $track->attributes()->nowplaying;
-
+        
+        // Return the track and artist if music is playing, otherwise show message
         if($nowplaying){
             $artist = $track->artist;
             $songname = $track->name;
