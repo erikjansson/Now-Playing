@@ -50,5 +50,3 @@ class NowPlaying{
 	}
 	
 } // end class
-	
-?>
