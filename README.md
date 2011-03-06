@@ -18,8 +18,8 @@ For this script to work, you need to apply for a Last.fm API account: http://www
  
     require_once 'nowplaying.class.php';
     $nowPlaying = new NowPlaying('Username', 'API key');
-    $playing->setNoTrackPlayingMessage('My custom message!'); // optional
-    echo $playing->getNowPlaying();
+    $nowPlaying->setNoTrackPlayingMessage('My custom message!'); // optional
+    echo $nowPlaying->getNowPlaying();
     
 ----
  
