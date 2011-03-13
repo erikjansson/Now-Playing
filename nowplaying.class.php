@@ -3,7 +3,7 @@
 /**
 * Class that returns the track a user is currently playing via Last.fm
 *
-* @author       Erik Jansson <erik@eriknow.com>
+* @author       Erik Jansson <hello@erikjansson.com>
 * @copyright    2011 Erik Jansson
 *
 */
@@ -35,7 +35,7 @@ class NowPlaying{
         // check if the track is actually playing 
         $nowplaying = $track->attributes()->nowplaying;
         
-        // Return the track and artist if music is playing, otherwise show message
+        // return the track and artist if music is playing, otherwise show message
         if($nowplaying){
             $artist = $track->artist;
             $songname = $track->name;
