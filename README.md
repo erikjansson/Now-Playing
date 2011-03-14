@@ -6,7 +6,7 @@ Requires PHP 5.
 
 ----
 
-Erik Jansson - <erik@eriknow.com>
+Erik Jansson - <hello@erikjansson.net>
 
 ----
  
