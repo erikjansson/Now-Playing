@@ -8,6 +8,8 @@ Requires PHP 5.
 
 Erik Jansson - <hello@erikjansson.net>
 
+Demo: [lab.erikjansson.net/now-playing](http://lab.erikjansson.net/now-playing)
+
 ----
  
 For this script to work, you need to apply for a Last.fm API account: http://www.last.fm/api/account
@@ -44,7 +46,7 @@ For this script to work, you need to apply for a Last.fm API account: http://www
 
 ## License
 
-Copyright (C) 2011 by [Erik Jansson](http://eriknow.com), released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
+Copyright (C) 2011 by [Erik Jansson](http://erikjansson.net), released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
