@@ -11,8 +11,6 @@ Erik Jansson - <hello@erikjansson.net>
 ----
  
 For this script to work, you need to apply for a Last.fm API account: http://www.last.fm/api/account
- 
-----
 
 ## Bare bones usage:
  
