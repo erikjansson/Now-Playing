@@ -4,9 +4,7 @@ Class that returns information about the current track playing, using the Last.f
 
 Requires PHP 5, as well as a Last.FM API key: http://www.last.fm/api/account
 
-----
-
-Erik Jansson - <hello@erikjansson.net>
+Author: Erik Jansson - <hello@erikjansson.net>
 
 ----
 
@@ -16,8 +14,6 @@ Erik Jansson - <hello@erikjansson.net>
     $nowPlaying = new NowPlaying('Username', 'API key');
     $nowPlaying->setNoTrackPlayingMessage('My custom message!'); // optional
     echo $nowPlaying->getNowPlaying();
-    
-----
  
 ## Step-by-step usage:
 
