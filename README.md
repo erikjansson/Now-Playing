@@ -8,8 +8,6 @@ Requires PHP 5.
 
 Erik Jansson - <hello@erikjansson.net>
 
-Demo: [lab.erikjansson.net/now-playing](http://lab.erikjansson.net/now-playing)
-
 ----
  
 For this script to work, you need to apply for a Last.fm API account: http://www.last.fm/api/account
