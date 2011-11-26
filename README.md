@@ -2,7 +2,7 @@
 
 Class that returns information about the current track playing, using the Last.fm API. 
 
-Requires PHP 5, as well as a Last.FM API key: http://www.last.fm/api/account
+Requires PHP 5, and a Last.fm API key: http://www.last.fm/api/account
 
 Author: Erik Jansson - <hello@erikjansson.net>
 
